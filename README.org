@@ -1,0 +1,19 @@
+* 안녕하세용 git 방법이에용.
+** 로컬 git 저장소 생성
+
+#+BEGIN_SRC sh
+mkdir 저장소이름
+cd 저장소이름
+git init
+#+END_SRC
+
+** 로컬 git add . (싱크할 파일 체크)
+#+BEGIN_SRC sh
+touch 새파일.text
+git add .
+#+END_SRC
+
+** 로컬 git commit -m "불라불라" (버전 생성 등록)
+#+BEGIN_SRC sh
+git commit -m "불라 불라"
+#+END_SRC
